@@ -28,7 +28,7 @@
     <meta name="author" content="OMIPAY">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <title>OMIPAY</title>
-    <link rel="shortcut icon" href="<?= $piprapay_favicon ?? '' ?>">
+    <link rel="icon" type="image/svg+xml" href="<?= $site_url ?>branding/omipay-favicon.svg">
     <link rel="stylesheet" href="<?php echo $site_url ?>assets/css/tabler.min.css?v=1.7" />
     <link rel="stylesheet" href="<?php echo $site_url ?>assets/css/choices.min.css">
 
@@ -171,7 +171,7 @@
             <!-- BEGIN NAVBAR LOGO -->
             <div class="navbar-brand navbar-brand-autodark d-none-navbar-horizontal pe-0 pe-md-3">
               <a href="javascript:void(0)" aria-label="Tabler">
-                  <img src="<?= $piprapay_logo_light ?? '' ?>" alt="" style="height: 32px;" onclick="load_content('Dashboard','<?php echo $site_url.$path_admin ?>/dashboard','nav-menu-dashboard')">
+                  <img src="<?= $site_url ?>branding/omipay-logo.svg" alt="OMIPAY" style="height: 32px; max-width: 100%;" onclick="load_content('Dashboard','<?php echo $site_url.$path_admin ?>/dashboard','nav-menu-dashboard')">
               </a>
             </div>
             <!-- END NAVBAR LOGO -->
@@ -208,7 +208,7 @@
         <div class="offcanvas-md offcanvas-start sidebar" tabindex="-1" id="sidebarMenu">
           <div class="offcanvas-header d-md-none">
               <a href="javascript:void(0)" aria-label="Tabler" onclick="load_content('Dashboard','<?php echo $site_url.$path_admin ?>/dashboard','nav-menu-dashboard')">
-                  <img src="<?= $piprapay_logo_light ?? '' ?>" alt="" style="height: 32px;" onclick="load_content('Dashboard','<?php echo $site_url.$path_admin ?>/dashboard','nav-menu-dashboard')">
+                  <img src="<?= $site_url ?>branding/omipay-logo.svg" alt="OMIPAY" style="height: 32px; max-width: 100%;" onclick="load_content('Dashboard','<?php echo $site_url.$path_admin ?>/dashboard','nav-menu-dashboard')">
               </a>
             <button type="button" class="btn-close" data-bs-dismiss="offcanvas"></button>
           </div>
