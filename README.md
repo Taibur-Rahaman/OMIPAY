@@ -1,8 +1,8 @@
 # OMIPAY — Open-Source Payment Automation Platform
 
 <p align="center">
-  <strong>OMIPAY</strong><br>
-  <em>Payment automation for businesses and developers</em>
+  <img src="branding/omipay-logo.svg" alt="OMIPAY logo" width="320">
+  <br><em>Payment automation for businesses and developers</em>
 </p>
 
 <p align="center">
