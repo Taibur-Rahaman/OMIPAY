@@ -170,7 +170,7 @@
             <!-- END NAVBAR TOGGLER -->
             <!-- BEGIN NAVBAR LOGO -->
             <div class="navbar-brand navbar-brand-autodark d-none-navbar-horizontal pe-0 pe-md-3">
-              <a href="javascript:void(0)" aria-label="Tabler">
+              <a href="javascript:void(0)" aria-label="OMIPAY">
                   <img src="<?= $site_url ?>branding/omipay-logo.svg" alt="OMIPAY" style="height: 32px; max-width: 100%;" onclick="load_content('Dashboard','<?php echo $site_url.$path_admin ?>/dashboard','nav-menu-dashboard')">
               </a>
             </div>
@@ -207,7 +207,7 @@
         <!-- SIDEBAR -->
         <div class="offcanvas-md offcanvas-start sidebar" tabindex="-1" id="sidebarMenu">
           <div class="offcanvas-header d-md-none">
-              <a href="javascript:void(0)" aria-label="Tabler" onclick="load_content('Dashboard','<?php echo $site_url.$path_admin ?>/dashboard','nav-menu-dashboard')">
+              <a href="javascript:void(0)" aria-label="OMIPAY" onclick="load_content('Dashboard','<?php echo $site_url.$path_admin ?>/dashboard','nav-menu-dashboard')">
                   <img src="<?= $site_url ?>branding/omipay-logo.svg" alt="OMIPAY" style="height: 32px; max-width: 100%;" onclick="load_content('Dashboard','<?php echo $site_url.$path_admin ?>/dashboard','nav-menu-dashboard')">
               </a>
             <button type="button" class="btn-close" data-bs-dismiss="offcanvas"></button>
@@ -1015,7 +1015,7 @@
                 activeLink.classList.add('active');
             }
 
-            document.title = page + ' - PipraPay';
+            document.title = page + ' - OMIPAY';
         }
 
         window.addEventListener("popstate", function(event) {
