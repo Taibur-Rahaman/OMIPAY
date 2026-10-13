@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 160" role="img" aria-labelledby="title desc">
+  <title id="title">OMIPAY</title>
+  <desc id="desc">OMIPAY payment platform logo with a teal and orange geometric payment mark.</desc>
+  <rect width="640" height="160" rx="24" fill="#ffffff"/>
+  <g transform="translate(24 24)">
+    <rect x="0" y="0" width="112" height="112" rx="28" fill="#0F766E"/>
+    <path d="M29 38c0-8 6-14 14-14h26c8 0 14 6 14 14v36c0 8-6 14-14 14H43c-8 0-14-6-14-14V38Z" fill="none" stroke="#fff" stroke-width="10"/>
+    <path d="M68 54h25c8 0 14 6 14 14v8c0 8-6 14-14 14H68" fill="none" stroke="#F97316" stroke-width="10" stroke-linecap="round"/>
+    <circle cx="88" cy="35" r="8" fill="#F97316"/>
+  </g>
+  <text x="162" y="101" font-family="Inter, ui-sans-serif, system-ui, -apple-system, Segoe UI, sans-serif" font-size="66" font-weight="800" letter-spacing="2" fill="#0F172A">OMI<tspan fill="#0F766E">PAY</tspan></text>
+</svg>
