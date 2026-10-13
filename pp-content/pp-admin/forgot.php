@@ -26,7 +26,7 @@
     <meta name="author" content="OMIPAY">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <title>Forgot Password - OMIPAY</title>
-    <link rel="shortcut icon" href="<?= $piprapay_favicon ?? '' ?>">
+    <link rel="icon" type="image/svg+xml" href="<?= $site_url ?>branding/omipay-favicon.svg">
     <link rel="stylesheet" href="<?php echo $site_url ?>assets/css/tabler.min.css?v=1.5" />
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@tabler/core@1.4.0/dist/css/tabler-vendors.min.css" />
 
@@ -46,7 +46,7 @@
     <div class="page page-center">
         <div class="container container-tight py-4">
             <div class="text-center mb-4">
-                <img src="<?= $piprapay_logo_light ?? '' ?>" alt="" style=" height: 40px; ">
+                <img src="<?= $site_url ?>branding/omipay-logo.svg" alt="OMIPAY" style="height: 40px; max-width: 100%;">
             </div>
             <div class="card card-md">
                 <div class="card-body">
