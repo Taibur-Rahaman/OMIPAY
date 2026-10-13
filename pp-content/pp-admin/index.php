@@ -42,6 +42,11 @@
     </style>
     <style>
         :root{
+            --tblr-primary: #0F766E;
+            --tblr-primary-rgb: 15, 118, 110;
+            --tblr-link-color: #0F766E;
+            --tblr-link-hover-color: #0B5F59;
+            --omipay-accent: #F97316;
             --tblr-font-monospace: Monaco, Consolas, Liberation Mono, Courier New, monospace;
             --tblr-font-sans-serif: Inter Var, Inter, -apple-system, BlinkMacSystemFont, San Francisco, Segoe UI, Roboto, Helvetica Neue, sans-serif;
             --tblr-font-serif: Georgia, Times New Roman, times, serif;
