@@ -25,9 +25,9 @@
 <html lang="en">
 <head>
     <meta charset="utf-8">
-    <meta name="author" content="Softnio">
+    <meta name="author" content="OMIPAY">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <title>PipraPay</title>
+    <title>OMIPAY</title>
     <link rel="shortcut icon" href="<?= $piprapay_favicon ?? '' ?>">
     <link rel="stylesheet" href="<?php echo $site_url ?>assets/css/tabler.min.css?v=1.7" />
     <link rel="stylesheet" href="<?php echo $site_url ?>assets/css/choices.min.css">
