@@ -1,173 +1,50 @@
-# 🐜 PipraPay — Open Source Self-Hosted Payment Automation Platform
+# OMIPAY — Open-Source Payment Automation Platform
 
 <p align="center">
-    <picture>
-        <source media="(prefers-color-scheme: light)" srcset="https://piprapay.com/assets/logo-light.png">
-        <img src="https://piprapay.com/assets/logo-light.png" alt="PipraPay" width="200">
-    </picture>
+  <strong>OMIPAY</strong><br>
+  <em>Payment automation for businesses and developers</em>
 </p>
 
 <p align="center">
-  <a href="https://github.com/PipraPay/PipraPay/releases">
-    <img src="https://img.shields.io/github/v/release/piprapay/piprapay?include_prereleases&style=for-the-badge" alt="Latest Release">
-  </a>
-
-  <a href="https://www.facebook.com/groups/piprapay">
-    <img src="https://img.shields.io/badge/Facebook%20Group-1.3K%20Members-1877F2?logo=facebook&logoColor=white&style=for-the-badge" alt="Facebook Group">
-  </a>
-
-  <a href="https://github.com/PipraPay/PipraPay/tree/main">
-    <img src="https://img.shields.io/badge/Laravel-12.x-FF2D20.svg?style=for-the-badge&logo=laravel" alt="CI Status">
-  </a>
-
   <a href="LICENSE">
     <img src="https://img.shields.io/badge/License-AGPL--3.0-blue.svg?style=for-the-badge&logo=gnu&logoColor=white" alt="AGPL-3.0 License">
   </a>
+  <img src="https://img.shields.io/badge/Status-Educational%20Preview-orange?style=for-the-badge" alt="Educational Preview">
 </p>
 
-PipraPay is the **first open-source payment automation system (AGPL-3.0)** — a self-hosted, plugin-based platform that unifies payment gateways, wallets, APIs, and SMS-based verification into one system.
+OMIPAY is an open-source payment automation project intended for learning, evaluation, and development of payment workflows. It is based on the upstream [PipraPay](https://github.com/PipraPay/PipraPay) project and remains subject to the applicable AGPL-3.0 license and upstream notices.
 
-It helps developers and businesses **accept, verify, and automate payments from any method — API or non-API — in a single workflow.**
+> **Important:** This repository is an educational/development preview. Do not use it to process real customer payments until deployment security, payment-provider approvals, compliance requirements, monitoring, backups, and incident-response procedures have been reviewed and tested.
 
-Supported payment networks include: Mobile Financial Services (MFS), payment gateways, and major banking systems across Bangladesh, India, and Pakistan — with full extensibility to integrate any custom or third-party provider.
+## Project goals
 
-Supported ecosystems include: bKash, Nagad, Rocket, Upay, and SureCash (Bangladesh); UPI, Paytm, PhonePe, Razorpay, and major Indian banks (India); Easypaisa, JazzCash, and leading Pakistani banking networks (Pakistan). Additional global gateways like Stripe, PayPal, and others can be added via plugins or custom integrations.
+- Explore payment workflow automation in a self-hosted application.
+- Evaluate supported payment connectors and integration patterns.
+- Develop and test API, webhook, and plugin integrations.
+- Provide a foundation for a properly licensed and secured hosted service.
 
-The system is fully expandable — developers can build and register new payment channels, gateways, and banking connectors without modifying core logic.
+Actual provider availability and features depend on the code version, configuration, credentials, and provider terms. Verify each integration in a sandbox before relying on it.
 
-[Website](https://piprapay.com) · [Documentation](https://help.piprapay.com/) · [Changelog](https://piprapay.com/changelog) · [API Reference](https://piprapay.readme.io/reference/overview) · [Community Group](https://www.facebook.com/groups/piprapay)
+## Getting started
 
-New install? Start here: [Getting started](https://help.piprapay.com/hc/categories/31/installation-guide)
+1. Review the repository files and the installation instructions supplied with the project.
+2. Configure a local development environment using test credentials only.
+3. Run the application and validate workflows in a sandbox.
+4. Review security settings before exposing any instance to the internet.
 
-## 💖 Sponsors
+Installation details may change as this repository is prepared for OMIPAY. Do not put production secrets, API keys, or customer data into source control.
 
-<table>
-  <tr>
-    <td align="center" width="16.66%">
-      <a href="https://www.flexohost.com/">
-        <picture>
-          <source media="(prefers-color-scheme: light)" srcset="https://www.flexohost.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2FFlexoHostHorizontalWhite.b835e24f.png&w=256&q=75">
-          <img src="https://www.flexohost.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2FFlexoHostHorizontalWhite.b835e24f.png&w=256&q=75" alt="" height="28">
-        </picture>
-      </a>
-    </td>
-    <td align="center" width="16.66%">
-      <a href="https://hostingoxygen.com/">
-        <picture>
-          <source media="(prefers-color-scheme: light)" srcset="https://panel.hostingoxygen.com/assets/img/logo.png">
-          <img src="https://panel.hostingoxygen.com/assets/img/logo.png" alt="" height="35">
-        </picture>
-      </a>
-    </td>
-    <td align="center" width="16.66%">
-      <a href="https://banglahoster.net/">
-        <picture>
-          <source media="(prefers-color-scheme: light)" srcset="https://banglahoster.net/billing/templates/lagom2/assets/img/logo/logo_big.2060021846.svg">
-          <img src="https://banglahoster.net/billing/templates/lagom2/assets/img/logo/logo_big.2060021846.svg" alt="" height="28">
-        </picture>
-      </a>
-    </td>
-    <td align="center" width="16.66%">
-      <a href="https://zenorbd.com/">
-        <picture>
-          <source media="(prefers-color-scheme: light)" srcset="https://zenorbd.com/storage/2024/12/ZENOR-BD-Logo.png">
-          <img src="https://zenorbd.com/storage/2024/12/ZENOR-BD-Logo.png" alt="" height="28">
-        </picture>
-      </a>
-    </td>
-    <td align="center" width="16.66%">
-      <a href="https://hostsite24.com/">
-        <picture>
-          <source media="(prefers-color-scheme: light)" srcset="https://hostsite24.com/wp-content/uploads/2025/07/WEB-header-logo.png">
-          <img src="https://hostsite24.com/wp-content/uploads/2025/07/WEB-header-logo.png" alt="" height="24">
-        </picture>
-      </a>
-    </td>
-    <td align="center" width="16.66%">
-      <a href="https://dignityhost.com/">
-        <picture>
-          <source media="(prefers-color-scheme: light)" srcset="https://dignityhost.com/assets/images/logo/logo-dignity-black.svg">
-          <img src="https://dignityhost.com/assets/images/logo/logo-dignity-black.svg" alt="" height="24">
-        </picture>
-      </a>
-    </td>
-  </tr>
-</table>
+## Commercial and hosted-service plans
 
-## 🔔 Why PipraPay Exists
+The long-term goal is to evaluate a subscription-based hosted service for businesses in Bangladesh and other markets. This repository does not by itself represent a production-ready or compliant payment service. Any hosted deployment must satisfy the applicable AGPL-3.0 source-code obligations for modified versions used over a network, as well as relevant payment-provider terms and local laws.
 
-Many regions lack modern payment infrastructure:
+## Upstream attribution and license
 
-- No Stripe/PayPal availability  
-- Local wallets without APIs  
-- Manual SMS-based verification  
-- Slow reconciliation processes  
+OMIPAY is based on **PipraPay**. Upstream project: https://github.com/PipraPay/PipraPay
 
-PipraPay solves this by:
+This project is licensed under **GNU Affero General Public License v3.0 (AGPL-3.0)**, subject to the license file and notices included in this repository. Preserve applicable copyright, license, and attribution notices in source distributions and modified versions. For modified versions made available for network interaction, review AGPL-3.0 Section 13 and provide the corresponding source code as required by the license.
 
-- Automating payment verification  
-- Turning SMS payments into programmable events  
-- Unifying all gateways under one system  
-- Removing manual transaction handling  
+- License text: [LICENSE](LICENSE)
+- Upstream project: [PipraPay on GitHub](https://github.com/PipraPay/PipraPay)
 
-## ⚡ Features
-
-- Plugin-based architecture  
-- Multi-gateway support (Stripe, PayPal, bKash, Nagad, etc.)  
-- SMS verification engine  
-- Webhook automation  
-- Custom gateway plugins  
-- REST API + SDK support  
-- Fully self-hosted  
-
-## 📱 Mobile App (Android – PipraPay Companion)
-
-The official PipraPay Android app is available on the Play Store:
-
-[Download on Play Store](https://play.google.com/store/apps/details?id=com.qubeplug.billpax_tools)
-
-This app acts as a secure companion tool for PipraPay payment verification and automation.
-
-
-## 📖 Documentation
-
-👉 Docs: https://help.piprapay.com/  
-👉 API Reference: https://piprapay.readme.io  
-
-- Install PipraPay  
-- Build plugins & modules  
-- Integrate APIs  
-- Configure gateways  
-- Use webhooks & automation  
-
-## 🤝 Contributing
-
-PipraPay is a community-first and developer-driven ecosystem.
-
-Even if the project is still evolving, contributions are welcome across multiple areas:
-
-- 🎨 **UI/UX Design**  
-  We welcome professional designers to help shape a strong, modern fintech identity including logo design, brand system, and interface improvements.
-
-- ⚙️ **Development & Extensions**  
-  Developers can contribute ideas, plugins, integrations, and improvements to the PipraPay ecosystem.
-
-- 🤝 **Sponsorship & Infrastructure**  
-  We are open to collaborations and sponsorships in areas such as CDN, cloud infrastructure, security tools, and scaling support.
-
-## 🌟 Star History
-
-<a href="https://www.star-history.com/?repos=piprapay%2Fpiprapay&type=date&legend=top-left">
- <picture>
-   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=piprapay/piprapay&type=date&theme=dark&legend=top-left" />
-   <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/chart?repos=piprapay/piprapay&type=date&legend=top-left" />
-   <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=piprapay/piprapay&type=date&legend=top-left" />
- </picture>
-</a>
-
-## 🛡️ License
-
-AGPL-3.0 — You can use, modify, and self-host PipraPay.  
-If you distribute modified versions, you must keep them open-source under the same license.
-
-## ❤️ Built by the Community, for the Community
+OMIPAY branding does not imply ownership of upstream code or third-party trademarks.
